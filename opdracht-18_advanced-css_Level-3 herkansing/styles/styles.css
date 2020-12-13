@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #c3cfe2;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slider {
+  color: white;
+  font-size: 12px;
+  text-transform: capitalize;
+  font: normal normal 12px arial;
+}
+
+.social-media__blog {
+  background-color: #e17b77;
+  padding: 10px;
+  width: 180px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 40px;
+}
+
+.social-media__blog::before {
+  content: "\f5fc";
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 5px;
+  color: white;
+}
+
+.social-media__blog:hover {
+  right: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.social-media__facebook {
+  background-color: #3b5998;
+  padding: 10px;
+  width: 180px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 76px;
+}
+
+.social-media__facebook::before {
+  content: "\f39e";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.social-media__facebook:hover {
+  right: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.social-media__linkedin {
+  background-color: #007bb6;
+  padding: 10px;
+  width: 180px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 112px;
+}
+
+.social-media__linkedin::before {
+  content: "\f0e1";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.social-media__linkedin:hover {
+  right: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.social-media__twitter {
+  background-color: #00aced;
+  padding: 10px;
+  width: 180px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 148px;
+}
+
+.social-media__twitter::before {
+  content: "\f099";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 9px;
+  color: white;
+}
+
+.social-media__twitter:hover {
+  right: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.social-media__github {
+  background-color: #333;
+  padding: 10px;
+  width: 180px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  top: 184px;
+}
+
+.social-media__github::before {
+  content: "\f113";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 9px;
+  color: white;
+}
+
+.social-media__github:hover {
+  right: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/*# sourceMappingURL=styles.css.map */
